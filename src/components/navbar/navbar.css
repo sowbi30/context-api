@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: -webkit-sticky;
+  width: 100vw;
+  background-color: beige; /* Add background color */
+  padding: 16px;
+  border-bottom: 2px solid #2980b9; /* Add border line */
+}
+
+.nav a {
+  color: black; /* Change text color to white */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav .active {
+  font-weight: 800;
+}
+
+.nav a:hover {
+  color: blue; /* Change text color on hover */
+}
